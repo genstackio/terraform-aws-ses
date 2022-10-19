@@ -3,7 +3,7 @@ variable "types" {
   default = []
 }
 
-variable "domain" {
+variable "identity" {
   type = string
 }
 
