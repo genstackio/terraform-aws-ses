@@ -5,7 +5,8 @@ variable "domain" {
   type = string
 }
 variable "zone" {
-  type = string
+  type    = string
+  default = null
 }
 variable "emails" {
   type    = map(string)
