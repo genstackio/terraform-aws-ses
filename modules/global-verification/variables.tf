@@ -10,4 +10,5 @@ variable "identities" {
     verification_token = string
     region             = string
   }))
+  default = {}
 }
